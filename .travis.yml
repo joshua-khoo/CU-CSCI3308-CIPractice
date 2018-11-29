@@ -1,2 +1,4 @@
 language: c
-install: make test
+install:
+  - make dep
+  - make test
