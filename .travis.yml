@@ -1,2 +1,2 @@
+install: make get-deps
 language: c
-./configure && make && make test
